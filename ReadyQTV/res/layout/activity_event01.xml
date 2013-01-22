@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/event01_titlebar">
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView_timebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/event01_timebar" />
+
+            <TextView
+                android:id="@+id/textView_timebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/textView_timebar"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <ImageButton
+                android:id="@+id/imageButton_eventbar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_timebar"
+                android:background="#00000000"
+                android:src="@drawable/event01_listbar01" />
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/imageButton_eventbar2" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_below="@+id/imageButton_eventbar1" -->
+<!--                 android:background="#00000000" -->
+<!--                 android:src="@drawable/event01_listbar01" /> -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/imageButton_eventbar3" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentLeft="true" -->
+<!--                 android:background="#00000000" -->
+<!--                 android:layout_below="@+id/imageButton_eventbar2" -->
+<!--                 android:src="@drawable/event01_listbar01" /> -->
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

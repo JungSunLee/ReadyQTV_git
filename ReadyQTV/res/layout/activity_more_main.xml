@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting01_titlebar" >
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14" 
+        android:background="@drawable/main_backg01">
+
+        <Button
+            android:id="@+id/button_more_profile"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="left"
+            android:background="@drawable/more_main_profile" />
+
+        <Button
+            android:id="@+id/button_more_account"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/more_main_account" />
+
+        <Button
+            android:id="@+id/button_more_notification"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="right"
+            android:background="@drawable/more_main_notification" />
+
+        <Button
+            android:id="@+id/button_more_event"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="106dp"
+            android:background="@drawable/more_main_event" />
+
+        <Button
+            android:id="@+id/button_more_setting"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="106dp"
+            android:background="@drawable/more_main_setting" />
+
+        <Button
+            android:id="@+id/button_more_empty"
+            android:layout_width="107dp"
+            android:layout_height="106dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="106dp"
+            android:background="@drawable/more_main_empty" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

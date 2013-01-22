@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_backg01"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp" >
+
+        <TextView
+            android:id="@+id/textView_livetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/textView_livetext"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/textView_channeltext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="130dp"
+            android:text="@string/textView_channeltext"
+            android:textColor="#1E90FF"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/textView_timetext"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/main_back01_livetext" />
+
+        <TextView
+            android:id="@+id/textView_date"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/textView_sbstext"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/main_backg01_bottom" >
+
+        <ImageButton
+            android:id="@+id/imageButton_event"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/main_backg01_bottom_button01" />
+
+        <ImageButton
+            android:id="@+id/imageButton_contents"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="113dp"
+            android:src="@drawable/main_backg01_bottom_button02" />
+
+        <ImageButton
+            android:id="@+id/imageButton_more"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="215dp"
+            android:src="@drawable/main_backg01_bottom_button03" />
+
+    </FrameLayout>
+    
+<!--     <FrameLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="200dp"  -->
+<!--         android:layout_marginTop="260dp" -->
+<!--         android:background="@drawable/main_backup01"> -->
+
+<!--         <ImageButton -->
+<!--             android:id="@+id/imageButton_store" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginTop="125dp" -->
+<!--             android:layout_marginLeft="30dp" -->
+<!--             android:background="#00000000" -->
+<!--             android:src="@drawable/main_backup01_bottom_button01" /> -->
+
+<!--         <ImageButton -->
+<!--             android:id="@+id/imageButton_invite" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginTop="125dp" -->
+<!--             android:layout_marginLeft="100dp" -->
+<!--             android:background="#00000000" -->
+<!--             android:src="@drawable/main_backup01_bottom_button02" /> -->
+
+<!--         <ImageButton -->
+<!--             android:id="@+id/imageButton_rank" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginTop="125dp" -->
+<!--             android:layout_marginLeft="170dp" -->
+<!--             android:background="#00000000" -->
+<!--             android:src="@drawable/main_backup01_bottom_button03" /> -->
+
+<!--         <ImageButton -->
+<!--             android:id="@+id/imageButton_start" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginTop="125dp" -->
+<!--             android:layout_marginLeft="240dp" -->
+<!--             android:background="#00000000" -->
+<!--             android:src="@drawable/main_backup01_bottom_button04" /> -->
+
+<!--     </FrameLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" >
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/imageButton_channel1"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="60dp"
+                android:overScrollMode="always"
+                android:background="#a0000000"
+                android:src="@drawable/main_backg01_channel01" />
+
+            <ImageButton
+                android:id="@+id/imageButton_channel2"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="60dp"
+                
+                android:background="#a0000000"
+                android:src="@drawable/main_backg01_channel02" />
+
+            <ImageButton
+                android:id="@+id/imageButton_channel3"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="60dp"
+                android:background="#a0000000"
+                android:src="@drawable/main_backg01_channel01" />
+
+        </ViewFlipper>
+
+        <RadioGroup
+            android:id="@+id/radios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:button="@drawable/scrollbar_grey"/>
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 
+                android:button="@drawable/scrollbar_grey"/>
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                
+                android:button="@drawable/scrollbar_grey"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

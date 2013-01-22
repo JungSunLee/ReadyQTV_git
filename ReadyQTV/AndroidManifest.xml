@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caf.readyqtv"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.caf.readyqtv.Logo01"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="main01"></activity>
+        <activity android:name="event01"></activity>
+        <activity android:name="event02"></activity>
+        <activity android:name="contents01"></activity>
+        <activity android:name="setting01"></activity>
+        
+        <activity android:name="mainpopup"
+                  android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="event03"></activity>
+        <activity android:name="event03_popup" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="more_main"></activity>        
+    </application>
+
+</manifest>
