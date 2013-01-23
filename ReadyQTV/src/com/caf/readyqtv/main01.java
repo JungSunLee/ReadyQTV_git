@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
@@ -33,8 +34,9 @@ public class main01 extends Activity implements OnTouchListener {
 	float previousDown;
 	float xAtDown;
 	float xAtUp;
-
-	ImageButton button_event, button_contents, button_more, imageButton_channel1, imageButton_channel2, imageButton_channel3;
+	
+	Button Button_channel1 , Button_channel2, Button_channel3;
+	ImageButton button_event, button_contents, button_more;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -100,15 +102,15 @@ public class main01 extends Activity implements OnTouchListener {
 	    flipper = (ViewFlipper) findViewById(R.id.viewFlipper1);
 	    flipper.setOnTouchListener(this);
 	    
-	    imageButton_channel1 = (ImageButton) findViewById(R.id.imageButton_channel1);
-        imageButton_channel1.setOnClickListener(new OnClickListener(){
+	    Button_channel1 = (Button) findViewById(R.id.imageButton_channel1);
+        Button_channel1.setOnClickListener(new OnClickListener(){
         	public void onClick(View v){
         		Intent intent_imageButton_channel1 = new Intent(main01.this , mainpopup.class);
         		startActivity(intent_imageButton_channel1);
         	}
         });
-	    imageButton_channel2 = (ImageButton) findViewById(R.id.imageButton_channel2);
-	    imageButton_channel3 = (ImageButton) findViewById(R.id.imageButton_channel3);
+	    Button_channel2 = (Button) findViewById(R.id.imageButton_channel2);
+	    Button_channel3 = (Button) findViewById(R.id.imageButton_channel3);
 
 	    // Event button
 	    button_event = (ImageButton)  findViewById(R.id.imageButton_event);
@@ -185,14 +187,14 @@ public class main01 extends Activity implements OnTouchListener {
 
 	private void checkView() {
 		// TODO Auto-generated method stub
-		ImageButton temp = (ImageButton) flipper.getCurrentView();
-		if (temp.equals(imageButton_channel1)) {
+		Button temp = (Button) flipper.getCurrentView();
+		if (temp.equals(Button_channel1)) {
 			radio1.setChecked(true);
 		}
-		if (temp.equals(imageButton_channel2)) {
+		if (temp.equals(Button_channel2)) {
 			radio2.setChecked(true);
 		}
-		if (temp.equals(imageButton_channel3)) {
+		if (temp.equals(Button_channel3)) {
 			radio3.setChecked(true);
 		}
 	}

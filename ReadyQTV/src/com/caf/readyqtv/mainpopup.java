@@ -26,6 +26,7 @@ public class mainpopup extends Activity {
 	    button_close.setOnClickListener(new OnClickListener(){
 	    	public void onClick(View v) {
 	    		Intent intent_button_close = new Intent(mainpopup.this, main01.class);
+	    		intent_button_close.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 	    		startActivity(intent_button_close);
 	    	}
 	    });

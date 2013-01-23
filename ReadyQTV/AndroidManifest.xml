@@ -32,7 +32,10 @@
                   android:theme="@android:style/Theme.Dialog"></activity>
         <activity android:name="event03"></activity>
         <activity android:name="event03_popup" android:theme="@android:style/Theme.Dialog"></activity>
-        <activity android:name="more_main"></activity>        
+        <activity android:name="more_main"></activity>
+        <activity android:name="contents01_tab_home"></activity>
+        <activity android:name="contents01_tab_place"></activity>
+        <activity android:name="contents01_tab_item"></activity>        
     </application>
 
 </manifest>
