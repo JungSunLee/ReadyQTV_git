@@ -5,19 +5,8 @@
     android:background="@drawable/event03_popup"
     android:orientation="vertical" >
 
-<!--     <FrameLayout -->
-<!--         android:layout_width="match_parent" -->
-<!--         android:layout_height="260dp"  -->
-<!--         android:background="@drawable/event03_popup"> -->
-
-<!--         <ImageView -->
-<!--             android:id="@+id/imageView1" -->
-<!--             android:layout_width="wrap_content" -->
-<!--             android:layout_height="wrap_content" -->
-<!--             android:src="@drawable/event03_popup" /> -->
-
         <Button
-            android:id="@+id/button_yes"
+            android:id="@+id/button_event_popup_yes"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="180dp"
@@ -25,7 +14,7 @@
             android:background="@drawable/event03_yes_button" />
 
         <Button
-            android:id="@+id/button_no"
+            android:id="@+id/button_event_popup_no"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="180dp"
@@ -41,6 +30,5 @@
             android:text="@string/textView_popuptext"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-<!--     </FrameLayout> -->
 
 </FrameLayout>

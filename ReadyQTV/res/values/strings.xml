@@ -19,6 +19,40 @@
     
     <string name="textView_profilename">JITAEE YOU</string>
     
-    <string name="textView_popuptext">Are you going to use 2,000 coin for...event?</string>
+    <string name="textView_popuptext">Are you going to use 2,000 coin for   event?</string>
+    
+    <string name="textView_ask_buystar">Do you want to buy 5 star?</string>
+    
+    <string name="textView_answer_buystar">Complete</string>
+    
+    <string name="textView_account_welcome">Welcome to ReadyQTV</string>
+    
+    <string name="textView_account_edit_email">Edit Email</string>
+    
+    <string name="textView_account_edit_password">Edit Password</string>
+    
+    <string name="textView_account_login">Login</string>
+    
+    <string name="textView_account_signup">Sign up</string>
+    
+    <string name="textView_more_login_firstsentence">Login to ReadyQTV</string>
+    
+    <string name="editText_more_login_email_hint">Email</string>
+    
+    <string name="editText_more_login_password_hint">Password</string>
+    
+    <string name="checkBox_autologin">  Auto Login</string>
+    
+    <string name="textView_account_signup_firstsententce">New Account</string>
+    
+    <string name="checkBox_signup_agree"> Agree with ReadyQTVs Terms of Service and Privacy Policy</string>
+    
+    <string name="editText_signup_write_email_hint">Email address</string>
+    
+    <string name="editText_signup_create_password_hint">Create a Password</string>
+    
+    <string name="editText_signup_confirm_password_hint">Confirm your password</string>
+    
+    <string name="editText_signup_username_hint">User Name</string>
 
 </resources>

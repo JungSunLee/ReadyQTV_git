@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/store_coin_shop" >
+        
+        <TextView
+            android:id="@+id/textView_coin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/textView_profilename"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFD700" />
+        
+        <!-- coin buy to 10 star -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp" >
+
+            <Button
+                android:id="@+id/button_buy_coin_5000"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/store_buy_button" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/store_coin_gold" />
+
+            <TextView
+                android:id="@+id/textView_coin_price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:text="X 5,000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/imageView_price_box1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/store_price_box" />
+
+            <ImageView
+                android:id="@+id/imageView_star_grey1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="127dp"
+                android:src="@drawable/store_star_grey" />
+
+            <TextView
+                android:id="@+id/textView_price_to_star1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="160dp"
+                android:text="10"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </FrameLayout>
+        
+        <!-- coin buy to 55 star -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp" >
+
+            <Button
+                android:id="@+id/button_buy_coin_27500"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/store_buy_button" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/store_coin_gold" />
+
+            <TextView
+                android:id="@+id/textView_coin_price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:text="X 27,500"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/imageView_price_box2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/store_price_box" />
+
+            <ImageView
+                android:id="@+id/imageView_star_grey2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="127dp"
+                android:src="@drawable/store_star_grey" />
+
+            <TextView
+                android:id="@+id/textView_price_to_star2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="160dp"
+                android:text="55"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </FrameLayout>
+        
+        <!-- coin buy to 55 star -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp" >
+
+            <Button
+                android:id="@+id/button_buy_coin_60000"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/store_buy_button" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/store_coin_gold" />
+
+            <TextView
+                android:id="@+id/textView_coin_price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:text="X 60,000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/imageView_price_box3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/store_price_box" />
+
+            <ImageView
+                android:id="@+id/imageView_star_grey3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="127dp"
+                android:src="@drawable/store_star_grey" />
+
+            <TextView
+                android:id="@+id/textView_price_to_star3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="160dp"
+                android:text="120"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </FrameLayout>
+        
+        <!-- coin buy to 400 star -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="250dp" >
+
+            <Button
+                android:id="@+id/button_buy_coin_200000"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/store_buy_button" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/store_coin_gold" />
+
+            <TextView
+                android:id="@+id/textView_coin_price4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:text="X 200,000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/imageView_price_box4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/store_price_box" />
+
+            <ImageView
+                android:id="@+id/imageView_star_grey4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="127dp"
+                android:src="@drawable/store_star_grey" />
+
+            <TextView
+                android:id="@+id/textView_price_to_star4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="160dp"
+                android:text="400"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </FrameLayout>
+        
+        <!-- coin buy to 750 star -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp" >
+
+            <Button
+                android:id="@+id/button_buy_coin_375000"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/store_buy_button" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/store_coin_gold" />
+
+            <TextView
+                android:id="@+id/textView_coin_price5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="15dp"
+                android:text="X 375,000"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/imageView_price_box5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="125dp"
+                android:src="@drawable/store_price_box" />
+
+            <ImageView
+                android:id="@+id/imageView_star_grey5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="127dp"
+                android:src="@drawable/store_star_grey" />
+
+            <TextView
+                android:id="@+id/textView_price_to_star5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="160dp"
+                android:text="750"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/button_coin_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_gravity="right"
+            android:background="@drawable/store_back_button" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

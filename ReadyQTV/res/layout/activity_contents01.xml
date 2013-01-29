@@ -8,6 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/contents01_titlebar" >
+        
+        <Button
+            android:id="@+id/button_contents01_back_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/activity_backbutton_down" />
     </FrameLayout>
 
     <TabHost

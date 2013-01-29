@@ -3,9 +3,13 @@ package com.caf.readyqtv;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TabHost;
 
 public class contents01 extends TabActivity {
+	Button button_contents01_back_down;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -13,6 +17,16 @@ public class contents01 extends TabActivity {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.activity_contents01);
 	    // TODO Auto-generated method stub
+	    
+	 // account back button
+	    button_contents01_back_down = (Button)  findViewById(R.id.button_contents01_back_down);
+	    button_contents01_back_down.setOnClickListener(new OnClickListener(){
+	    	public void onClick(View v) {
+	    		Intent intent_button_event01_back_right = new Intent(contents01.this, main01.class);
+	    		startActivity(intent_button_event01_back_right);
+	    	}
+	    });
+	    //end
 	    
 	    /** TAB BAR **/
 	    //

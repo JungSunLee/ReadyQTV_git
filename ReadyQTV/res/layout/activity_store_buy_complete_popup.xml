@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/store_buy_popup02"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_answer_buystar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/textView_answer_buystar"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</FrameLayout>

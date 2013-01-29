@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp" 
+        android:background="#696969">
+
+        <ImageView
+            android:id="@+id/imageView_star"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/quiz_top01" />
+
+        <ImageView
+            android:id="@+id/imageView_coin"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="75dp"
+            android:src="@drawable/quiz_top02" />
+
+        <ImageView
+            android:id="@+id/imageView_score"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            android:src="@drawable/quiz_top03" />
+
+        <Button
+            android:id="@+id/button_quiz01_out"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:background="@drawable/quiz_top04" />
+
+        <ImageView
+            android:id="@+id/imageView_question_back"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/quiz_question_back01" />
+
+        <ImageView
+            android:id="@+id/imageView_question_timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/quiz_question_timing" />
+
+        <TextView
+            android:id="@+id/textView_question_timing"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="28dp"
+            android:textColor="#FFD700"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/button_quiz01_o_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/quiz01_o_off_button" />
+        
+        <Button
+            android:id="@+id/button_quiz01_x_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:background="@drawable/quiz01_x_off_button" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
