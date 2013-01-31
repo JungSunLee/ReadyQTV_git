@@ -46,7 +46,11 @@
         <activity android:theme="@android:style/Theme.Dialog" android:name="quiz_option_popup"></activity>
         <activity android:name="more_account"></activity>
         <activity android:name="more_account_login"></activity>
-        <activity android:name="more_account_signup"></activity>        
+        <activity android:name="more_account_signup"></activity>
+        <activity android:name="more_profile01"></activity>
+        <activity android:name="more_profile02"></activity>
+        <activity android:name="more_edit_email"></activity>
+        <activity android:name="more_edit_password"></activity>        
     </application>
 
 </manifest>

@@ -118,6 +118,7 @@ public class main01 extends Activity implements OnTouchListener {
 	    	public void onClick(View v) {
 	    		Intent intent_button_event = new Intent(main01.this, event01.class);
 	    		startActivity(intent_button_event);
+	    		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left);
 	    	}
 	    });
 	    //end
@@ -138,6 +139,7 @@ public class main01 extends Activity implements OnTouchListener {
 	    	public void onClick(View v) {
 	    		Intent intent_button_setting = new Intent(main01.this, more_main.class);
 	    		startActivity(intent_button_setting);
+	    		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
 	    	}
 	    });
 	    //end

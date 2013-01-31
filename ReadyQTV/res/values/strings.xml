@@ -54,5 +54,15 @@
     <string name="editText_signup_confirm_password_hint">Confirm your password</string>
     
     <string name="editText_signup_username_hint">User Name</string>
+    
+    <string name="textView_profile_myinformation">My Information</string>
+    
+    <string name="textView_profile01_email">Email</string>
+    
+    <string name="textView_editmypassword">EDIT MY PASSWORD</string>
+    
+    <string name="editText_editpassword_newpw_hint">new password</string>
+    
+    <string name="editText_editpassword_confirmpw_hint">confirm your new password</string>
 
 </resources>
