@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_backg01"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/invite_back" >
+
+        <Button
+            android:id="@+id/button_invite_close"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/close_black" />
+
+        <!-- edit text window -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp" >
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/more_edit_type01" />
+
+            <EditText
+                android:id="@+id/editText_invite_search_friends"
+                android:layout_width="230dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="22dp"
+                android:layout_gravity="center_horizontal"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+        </FrameLayout>
+
+        <!-- invite01 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="151dp" >
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg01"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_invite_invitebtn01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/invite_invite_btn" />
+        </FrameLayout>
+
+        <!-- invite02 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="225dp" >
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg02"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_invite_invitebtn02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/invite_invite_btn" />
+        </FrameLayout>
+
+        <!-- invite03 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp" >
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg03"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_invite_invitebtn03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/invite_invite_btn" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView_gold_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginLeft="-8dp"
+            android:layout_marginTop="57dp"
+            android:src="@drawable/tag01_gold" />
+
+        <TextView
+            android:id="@+id/textView_invite_invitefriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView_invite_manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

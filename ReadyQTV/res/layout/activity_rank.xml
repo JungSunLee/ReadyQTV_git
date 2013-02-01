@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_backg01"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp" 
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rank_back" >
+        
+        <Button
+            android:id="@+id/button_rank_close"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right"
+            android:background="@drawable/close_black" />
+
+        <!-- rank01 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp" 
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_rank_medal01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/rank_top01" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg01"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_rank_send_ticket01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/rank_send_ticket" />
+
+        </FrameLayout>
+        
+        <!-- rank02 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp" 
+            android:layout_marginTop="151dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_rank_medal02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/rank_top02" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg02"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_rank_send_ticket02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/rank_send_ticket" />
+
+        </FrameLayout>
+        
+        <!-- rank03 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp" 
+            android:layout_marginTop="225dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_rank_medal03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/rank_top03" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg03"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_rank_send_ticket03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/rank_send_ticket" />
+
+        </FrameLayout>
+        
+        <!-- rank04 -->
+        <FrameLayout
+            android:layout_width="280dp"
+            android:layout_height="77dp" 
+            android:layout_marginTop="300dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_bottom_line04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/extra_divide_line" />
+
+            <ImageView
+                android:id="@+id/imageView_user_jpg04"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/userdemo01" />
+
+            <Button
+                android:id="@+id/button_rank_send_ticket04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="220dp"
+                android:background="@drawable/rank_send_ticket" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView_gold_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginLeft="-8dp"
+            android:src="@drawable/tag01_gold" />
+
+        <TextView
+            android:id="@+id/textView_rank_weekly_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/textView_rank_weekly_friends"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/textView_rank_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="195dp"
+            android:text="@string/textView_rank_world"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

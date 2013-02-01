@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting01_titlebar" >
+
+        <Button
+            android:id="@+id/button_more_setting_back_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/activity_backbutton_left" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:background="@drawable/main_backg01"
+        android:layout_weight="0.15" >
+
+        <TextView
+            android:id="@+id/textView_setting_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/textView_setting_alert"
+            android:textColor="#20B2AA"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <ImageView
+            android:id="@+id/imageView_setting_pushalert"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/more_edit_type01" />
+        
+        <ImageView
+            android:id="@+id/imageView_setting_soundalert"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/more_edit_type01" />
+
+        <TextView
+            android:id="@+id/textView_setting_pushalert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/textView_setting_pushalert"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView_setting_soundalert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/textView_setting_soundalert"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_setting_pushalert"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton_setting_soundalert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="119dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:text="ToggleButton" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ad1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

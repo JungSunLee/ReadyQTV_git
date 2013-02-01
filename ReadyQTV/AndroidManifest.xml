@@ -50,7 +50,13 @@
         <activity android:name="more_profile01"></activity>
         <activity android:name="more_profile02"></activity>
         <activity android:name="more_edit_email"></activity>
-        <activity android:name="more_edit_password"></activity>        
+        <activity android:name="more_edit_password"></activity>
+        <activity android:name="more_notification01"></activity>
+        <activity android:name="more_events"></activity>
+        <activity android:name="more_setting"></activity>
+        <activity android:name="rank"></activity>
+        <activity android:name="invite"></activity>
+        <activity android:name="rank_sendticket_popup" android:theme="@android:style/Theme.Dialog"></activity>        
     </application>
 
 </manifest>

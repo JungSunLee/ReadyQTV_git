@@ -64,5 +64,17 @@
     <string name="editText_editpassword_newpw_hint">new password</string>
     
     <string name="editText_editpassword_confirmpw_hint">confirm your new password</string>
+    
+    <string name="textView_setting_alert">Alert Setting</string>
+    
+    <string name="textView_setting_pushalert">Push Alert</string>
+    
+    <string name="textView_setting_soundalert">Sound Alert</string>
+    
+    <string name="textView_rank_weekly_friends">Weekly friends Rank</string>
+    
+    <string name="textView_rank_world">World Rank</string>
+    
+    <string name="textView_ask_send_ticket">            ReadyQTV \nYou sent the ticket to ABC.</string>
 
 </resources>

@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 public class mainpopup extends Activity {
 	Button button_close;
-	ImageButton imagebutton_store, imagebutton_quiz_start, imagebutton_coin_mini, imagebutton_star_mini;
+	ImageButton imagebutton_store, imagebutton_quiz_start, imagebutton_coin_mini, imagebutton_star_mini, imagebutton_rank, imagebutton_invite;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -43,6 +43,34 @@ public class mainpopup extends Activity {
 	    		startActivity(intent_button_store);
 	    	}
 	    });
+	    //end
+	    
+	 // Rank button
+	    imagebutton_rank = (ImageButton) findViewById(R.id.imageButton_rank);
+	    imagebutton_rank.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent_button_rank = new Intent(mainpopup.this, rank.class);
+				intent_button_rank.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+	    		startActivity(intent_button_rank);
+			}
+		});
+	    //end
+	    
+	 // Invite button
+	    imagebutton_invite = (ImageButton) findViewById(R.id.imageButton_invite);
+	    imagebutton_invite.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent_button_invite = new Intent(mainpopup.this, invite.class);
+				intent_button_invite.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+	    		startActivity(intent_button_invite);
+			}
+		});
 	    //end
 	    
 	 // coin_mini button
